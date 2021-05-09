@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2021_05_08_121325) do
 
-  create_table "data_sources", charset: "utf8mb4", force: :cascade do |t|
+  create_table "data_sources", force: :cascade do |t|
     t.string "name"
     t.string "host"
     t.string "username"
